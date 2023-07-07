@@ -1,0 +1,126 @@
+/*GENEREAL*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+a {
+  font-size: 1rem;
+  margin-left: 1em;
+  text-decoration: none;
+  color: rgb(36 156 177);
+}
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 0.7em;
+}
+div:not(div#sound) {
+  margin-bottom: 2em;
+}
+
+header {
+  background-color: #222f3f;
+  padding-left: 2em;
+  padding-block: 0.5em;
+}
+header img {
+  width: max(10%, 100px);
+  /* margin-left: 2em; */
+}
+nav {
+  background-color: #364759;
+  padding-left: 2em;
+  padding-block: 0.5em;
+}
+nav ol li {
+  display: inline-block;
+  color: white;
+  margin-left: 0.7em;
+}
+main {
+  padding: 2em;
+  background-color: rgba(233, 237, 238, 255);
+}
+
+div#gift-card {
+  background-color: #f56505;
+  text-align: center;
+  color: white;
+  padding-block: 0.5em;
+}
+div#gift-card p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+div#gift-card1 {
+  background-image: url(../assets/bg-image.png);
+  background-size: contain;
+  color: white;
+  text-align: center;
+  padding: 4em 2em;
+}
+div#cards {
+  background-color: white;
+  padding-inline: 1em;
+  padding-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  text-align: center;
+}
+
+div#cards p {
+  margin-left: 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: start;
+}
+div#cards img {
+  height: 20em;
+  width: 23%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 15px;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+div#cards img:last-child {
+  margin-right: 0;
+}
+
+div#game,
+div#sound {
+  object-fit: cover;
+  text-align: center;
+}
+div img {
+  width: 100%;
+}
+
+footer {
+  background-color: #222f3f;
+  text-align: center;
+}
+footer p {
+  background-color: #364759;
+  padding-block: 0.4em;
+}
+footer p a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 400;
+}
+footer img {
+  width: max(10%, 100px);
+  padding-block: 2em;
+}
