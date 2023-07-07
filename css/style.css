@@ -1,5 +1,4 @@
 /*GENEREAL*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 *,
 *::before,
@@ -7,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 p {
   font-weight: bold;

@@ -36,8 +36,6 @@ pets.splice(0, 1);
 pets.push(firstElement);
 console.log(pets);
 
-/* Ci tengo a far sapere che ho usato solo metodi che mutano l'array originale consapevolmente! */
-
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
