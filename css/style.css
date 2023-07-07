@@ -74,7 +74,7 @@ div#cards {
   background-color: white;
   padding-inline: 1em;
   padding-bottom: 1em;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
   text-align: center;
 }
 
