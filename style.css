@@ -1,0 +1,16 @@
+/*GENEREAL*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #222f3f;
+}
+header img {
+  width: 10%;
+  /* margin-left: 2em; */
+}
